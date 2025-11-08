@@ -1,0 +1,47 @@
+# =========================
+# Node / Geral
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+.DS_Store
+
+# =========================
+# Cypress
+# =========================
+# Resultados de testes e cache
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/reports/
+cypress/results/
+cypress/logs/
+cypress/cache/
+
+# Arquivos temporários de execução
+cypress/.cy*
+cypress.config.ts.timestamp*
+cypress.config.js.timestamp*
+
+# Configurações locais
+cypress.env.json
+
+# =========================
+# IDEs e Sistema
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+
+# =========================
+# Build / Coverage
+# =========================
+dist/
+build/
+coverage/
